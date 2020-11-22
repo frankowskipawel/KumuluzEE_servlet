@@ -19,4 +19,6 @@ public class SimpleServlet extends HttpServlet {
         response.getWriter().println("Simple servlet");
     }
 }
+
+// mvn clean install
 // java -cp target/classes;target/dependency/* com.kumuluz.ee.EeApplication
